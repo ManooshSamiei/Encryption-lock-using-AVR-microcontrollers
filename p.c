@@ -1,4 +1,4 @@
-//Final Project : "CRYPTOGRAPHY SYSTEM"
+//Final Project : "Encryption SYSTEM"
 //Name: MANOOSH SAMIEI 
 //Student No:94242070
 /*!!!!!ATTENTION!!!!!: Please do not enter the numbers 

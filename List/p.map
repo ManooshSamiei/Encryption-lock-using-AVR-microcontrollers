@@ -1,0 +1,53 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x026B      20
+data                                                                              0x027F       4
+pass                                                                              0x0283       4
+_base_y                                                                           0x0287       4
+_lcd_y                                                                            0x028B       1
+_lcd_maxx                                                                         0x028C       1
+_seed                                                                             0x028D       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key                                                                               R5           1
+t                                                                                 R4           1
+c                                                                                 R7           1
+b                                                                                 R6           1
+a                                                                                 R9           1
+compare                                                                           R8           1
+i                                                                                 R11          1
+k                                                                                 R10          1
+j                                                                                 R13          1
+_lcd_x                                                                            R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_comp_isr                                                                   0x0009F     13
+read_adc                                                                          0x000AC     15
+keyboard                                                                          0x000BB     65
+ext_int2_isr                                                                      0x000FC     34
+readpass                                                                          0x0011E     55
+checkpass                                                                         0x00155     20
+main                                                                              0x00169    174
+_lcd_write_nibble_G100                                                            0x00217     20
+_lcd_write_data                                                                   0x0022B     12
+lcd_gotoxy                                                                        0x00237     15
+lcd_clear                                                                         0x00246     13
+lcd_putchar                                                                       0x00253     26
+lcd_puts                                                                          0x0026D     15
+lcd_putsf                                                                         0x0027C     19
+lcd_init                                                                          0x0028F     46
+put_buff_G101                                                                     0x002BD     64
+_print_G101                                                                       0x002FD    308
+sprintf                                                                           0x00431     52
+cabs                                                                              0x00465      6
+strlen                                                                            0x0046B     12
+strlenf                                                                           0x00477     13
